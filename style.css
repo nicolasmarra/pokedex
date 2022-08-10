@@ -12,14 +12,14 @@ body {
 
   text-align: center;
 
-  background: linear-gradient(to bottom, #33dee4, #fff);
+  background: linear-gradient(#f0ec09, #fff);
 }
 
 main {
   display: inline-block;
   position: relative;
 
-  margin-top: 6%;
+  margin-top: 8%;
   padding: 15px;
 }
 
@@ -97,5 +97,5 @@ form {
 
 .button:active {
   box-shadow: inset -4px 4px 0 #111;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
