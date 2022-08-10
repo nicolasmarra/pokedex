@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  min-height: 100vh;
+
+  text-align: center;
+
+  background: linear-gradient(to bottom, #33dee4, #fff);
+}
+
+main {
+  display: inline-block;
+  position: relative;
+
+  margin-top: 6%;
+  padding: 15px;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 400px;
+}
+
+.pokemon {
+  position: absolute;
+  bottom: 55%;
+  left: 38%;
+
+  height: 12%;
+}
+
+.donnees {
+  position: absolute;
+  top: 54.5%;
+  right: 27%;
+
+  font-weight: 600;
+  color: #094749;
+  font-size: clamp(10px, 5vw, 25px);
+}
+
+.nom {
+  color: #094749;
+  text-transform: uppercase;
+}
+
+form {
+  position: absolute;
+  top: 64%;
+  left: 12.8%;
+
+  width: 66.5%;
+}
+
+.recherche {
+  width: 100%;
+  padding: 2.5%;
+  outline: none;
+  border: 1px solid #0a0c0c;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #094749;
+  font-size: clamp(10px, 5vw, 18px);
+  box-shadow: -3px 4px 0 #868585, -5px 7px 0 #353535;
+}
