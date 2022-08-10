@@ -1,2 +1,2 @@
 # pokedex
-Pokédex en HTML, CSS et Javascript. J'ai utilisé l'api (PokeAPI)[https://pokeapi.co/] pour récupérer les donnnées sur les pokémons.
+Pokédex en HTML, CSS et Javascript. J'ai utilisé l'api <a href="https://www.pokeapi.co/">PokéAPI</a> pour récupérer les donnnées sur les pokémons.
